@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.container .menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .menu a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;   
+}
+.container .menu a:hover{
+    color: gray;   
+}
+
+.container .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}

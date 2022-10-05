@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+form .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+form .content input{
+    border-radius: 4px 4px 4px 4px;
+    height: 2.5rem;
+    width: 15rem;
+    font-size: 1rem;
+}
+
+form .content input::placeholder{
+    padding: 0.3rem;
+}
+form .content .btn{
+    border-radius: 0px 8px 8px 0px;
+    position: absolute;
+    right: 0rem;
+}
+
+form .content .btn button{
+    height: 2.7rem;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-size: 1rem;
+}
